@@ -1,0 +1,133 @@
+/*HEADER*/
+
+
+#dvd{
+    border: solid 1px #000;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    align-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#furniture{
+    border: solid 1px #000;
+    flex-direction: column;
+    height: 150px;
+    width: 600px;
+    background-color: #fff;
+    align-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#book{
+    border: solid 1px #000;
+    flex-direction: column;
+    height: 100px;
+    width: 300px;
+    background-color: #fff;
+    align-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%; 
+}
+
+.appeared {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-container{
+    font-size: 20px;
+    margin-top: 1%;
+    display:flex;
+    flex-wrap: nowrap;
+    grid-auto-flow: row;
+    align-items: center;
+    margin-right: 50px;
+ }
+
+ .header-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: solid 1px #000;
+    margin-top: 2%;
+}
+
+input{
+    width: 60%;
+}
+
+.box-container{
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    text-align: center;
+}
+
+.box-container > div{
+    flex-basis: calc(25% - 40px);
+}
+
+.box{
+    text-align:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    max-width: 100%;
+    width: 19%;
+    margin-left: 1%;
+    max-height: 32%;
+    margin-bottom: 3%;
+    border: 1px solid #000;
+}
+
+.box-inner{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.dimensions{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-checkbox{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.item:empty {
+    display: none;
+}
+
+.dimensions:empty{
+    display: none;
+}
+
+
+/*#save-btn{
+
+}
+*/
